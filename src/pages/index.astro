@@ -14,7 +14,7 @@ import Spotify from "../icons/spotify.astro";
 <Layout title="Portafolio.">
 	<main class="w-full mx-auto lg:w-[740px] py-44">
 		<section>
-			<h1 class="flex flex-col text-white text-5xl text-pretty  font-bold">
+			<h1 id="inicio" class="flex flex-col text-white text-5xl text-pretty  font-bold">
 				<span class="text-green-400">Full-stack senior</span><span>contador serial de chistes de mierda, y <span class="opacity-80 hover:border-b hover:cursor-pointer hover:border-green-500 hover:scale-110">Creador de contenido</span></span>
 			</h1>
 			
@@ -61,4 +61,8 @@ import Spotify from "../icons/spotify.astro";
 			<a href="https://www.youtube.com/c/DagerMusic" target="_blank"><img src="/img/peliculas.PNG" alt="Youtube" class="w-full h-auto"></a>
 		</section>
 	</main>
+
+	<section class="flex justify-end">
+		<a class="bg-green-500 text-white rounded-md hover:bg-green-600 transition-all duration-100" href="#inicio"><img src="/img/pickle.png" alt="Inicio" class="w-24 h-20"></a>
+	</section>
 </Layout>
