@@ -12,9 +12,9 @@ import Spotify from "../icons/spotify.astro";
 ---
 
 <Layout title="Portafolio.">
-	<main>
-		<section class="w-full mx-auto lg:w-[740px] py-44">
-			<h1 class="flex flex-col text-white text-5xl  font-bold  pb-4">
+	<main class="w-full mx-auto lg:w-[740px] py-44">
+		<section>
+			<h1 class="flex flex-col text-white text-5xl text-pretty  font-bold">
 				<span class="text-green-400">Full-stack senior</span><span>contador serial de chistes de mierda, y <span class="opacity-80 hover:border-b hover:cursor-pointer hover:border-green-500 hover:scale-110">Creador de contenido</span></span>
 			</h1>
 			
@@ -22,15 +22,43 @@ import Spotify from "../icons/spotify.astro";
 				<div class="flex justify-center gap-x-4 rounded-full mt-2">
 				<a class="border border-white rounded-full p-2 hover:scale-110 transition-all duration-100 bg-white/5" href="https://www.instagram.com/dager.32" target="_blank"><span><Instagram /></span></a>
 				<a class="border border-white rounded-full p-2 hover:scale-110 transition-all duration-100 bg-white/5" href="https://www.tiktok.com/@elantrodedager" target="_blank"><span><Tiktok /></span></a>
-				<a class="border border-white rounded-full p-2 hover:scale-110 transition-all duration-100 bg-white/5" href="https://www.youtube.com/@elantrodedager" target="_blank"><span><Youtube /></span></a>
+				<a class="border border-white rounded-full p-2 hover:scale-110 transition-all duration-100 bg-white/5" href="https://www.youtube.com/@DotDager" target="_blank"><span><Youtube /></span></a>
 				<a class="border border-white rounded-full p-2 hover:scale-110 transition-all duration-100 bg-white/5" href="https://discord.com/invite/4NFk6TamAB" target="_blank"><span><Discord /></span></a>
 				<a class="border border-white rounded-full p-2 hover:scale-110 transition-all duration-100 bg-white/5" href="https://github.com/MarianoVilla" target="_blank"><span><Github /></span></a>
 				<a class="border border-white rounded-full p-2 hover:scale-110 transition-all duration-100 bg-white/5" href="https://x.com/Dager_32" target="_blank"><span><Twitter /></span></a>
 				<a class="border border-white rounded-full p-2 hover:scale-110 transition-all duration-100 bg-white/5" href="https://open.spotify.com/intl-es/artist/6bkClBMJd4qKxJp0J5vHsz?nd=1" target="_blank"><span><Spotify /></span></a>
 			</div>
-
-			
 			</div>
+		</section>
+		<section id="experience" class="bg-gray-100  hover:opacity-90 hover:scale-105 transition-all duration-100 p-8 rounded-lg shadow-md mt-10">
+			<h2 class="text-2xl font-bold mb-4 text-green-500">Intereses</h2>
+			<p class="mb-6 text-gray-600">
+				Me apasiona explorar nuevas tecnologías y tendencias en el diseño y desarrollo web. 
+				Aquí hay algunas áreas que me interesan:
+			</p>
+			<ul class="list-disc list-inside space-y-2 text-gray-700">
+				<li>Desarrollo Frontend</li>
+				<li>Diseño UX/UI</li>
+				<li>Inteligencia Artificial</li>
+				<li>Guitarras</li>
+				<li>Gatos</li>
+				<li>Música</li>
+			</ul>
+		</section>
+
+		<section id="projects" class="bg-gray-100  hover:opacity-90 hover:scale-105 transition-all duration-100 p-8 rounded-lg shadow-md mt-10">
+			<h2 class="text-2xl font-bold mb-4 text-green-500">Puedes ver algunos de mis videos en mi canal de Youtube</h2>
+			<a href="https://www.youtube.com/@DotDager" target="_blank"><img src="/img/youtube.PNG" alt="Youtube" class="w-full h-auto"></a>
+		</section>
+
+		<section id="projects" class="bg-gray-100  hover:opacity-90 hover:scale-105 transition-all duration-100 p-8 rounded-lg shadow-md mt-10">
+			<h2 class="text-2xl font-bold mb-4 text-green-500">Puedes ver algunos de mis videos en mi canal de música</h2>
+			<a href="https://www.youtube.com/c/DagerMusic" target="_blank"><img src="/img/musica.PNG" alt="Youtube" class="w-full h-auto"></a>
+		</section>
+
+		<section id="projects" class="bg-gray-100  hover:opacity-90 hover:scale-105 transition-all duration-100 p-8 rounded-lg shadow-md mt-10">
+			<h2 class="text-2xl font-bold mb-4 text-green-500 text-pretty">Puedes ver algunos de mis videos sobre analisis de películas</h2>
+			<a href="https://www.youtube.com/c/DagerMusic" target="_blank"><img src="/img/peliculas.PNG" alt="Youtube" class="w-full h-auto"></a>
 		</section>
 	</main>
 </Layout>
